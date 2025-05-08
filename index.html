@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+  <h2>Criação de Build</h2>
+<form id="build-form">
+  <fieldset id="desv">
+    <legend>Desvantagens (+ pontos)</legend>
+  </fieldset>
+
+  <fieldset id="vant">
+    <legend>Vantagens (- pontos)</legend>
+  </fieldset>
+
+  <fieldset>
+  <legend>Atributos <span id="pontos">12</span> </legend>
+  <div class="atributo" data-atributo="for"><p>Força:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="des"><p>Destreza:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="per"><p>Percepção:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="cons"><p>Constituição:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="von"><p>Vontade:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="int"><p>Inteligência:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="sab"><p>Sabedoria:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="foco"><p>Foco:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="sor"><p>Sorte:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+  <div class="atributo" data-atributo="influ"><p>Influência:</p>
+    <button type="button" class="menos">-</button>
+    <span class="valor">0</span>
+    <button type="button" class="mais">+</button>
+  </div>
+</fieldset>
+
+
+  <button type="submit">Gerar Build</button>
+</form>
+
+<div id="resultado"></div>
+
+</body>
+<script src="script.js"></script>
+
+
+</html>

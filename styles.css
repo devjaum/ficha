@@ -1,0 +1,40 @@
+form {
+  max-width: 700px;
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+fieldset {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  max-width: 30px;
+}
+.atributo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.atributo button {
+  width: 25px;
+  height: 25px;
+}
+.atributo p{
+  width: 95px;
+}
+.valor {
+  min-width: 20px;
+  text-align: center;
+  display: inline-block;
+}
